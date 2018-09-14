@@ -1,2 +1,2 @@
-# Trekking-Server
+# trekking-server
 The server of Trekking.
