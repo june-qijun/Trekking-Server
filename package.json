@@ -14,8 +14,10 @@
     "egg-scripts": "^2.5.0",
     "egg-sequelize": "^4.1.0",
     "egg-static": "^2.1.1",
+    "egg-validate": "^2.0.1",
     "mysql2": "^1.6.1",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "autod": "^3.0.1",

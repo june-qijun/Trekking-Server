@@ -7,7 +7,11 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1535863423479_1738';
 
   // add your config here
-  config.middleware = [ 'login' ];
+  config.middleware = [ 'test', 'login' ];
+  config.test = {
+    enable: false,
+  };
+
   config.login = {
     enable: true,
     ignore: /\/$|\/login|\/logout/,
