@@ -9,6 +9,10 @@ module.exports = app => {
     _id: { type: String, default: uuid.v4 },
     title: String,
     description: String,
+    parent_id: {
+      type: String,
+      index: true,
+    },
     user_id: {
       type: String,
       index: true,
